@@ -7,12 +7,12 @@ html, body {
 width:1174px;
 margin-left: auto;
 margin-right: auto;
-
  }
 
  .menu {
    float: left;
    margin-top: 60px;
+   margin-bottom: 100px;
  }
 
  .menu ul li  {
@@ -31,4 +31,37 @@ margin-right: auto;
 
 .menu ul li a:hover {
   color:#D4437D ;
+}
+
+.slider{
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.body {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+  width: 300px;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.produit {
+  
+}
+
+.colonne-footer {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+}
+
+footer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
 }
