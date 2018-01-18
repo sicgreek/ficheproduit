@@ -128,6 +128,7 @@ a.control_next {
   display: inline-block;
   vertical-align: top;
   width: 24%;
+  text-align:inherit;
 }
 
 .supfooter{
@@ -140,11 +141,8 @@ float: right;
 .iconefixe {
   float: left;
   position: relative;
-  line-height: 50px;
-
+  margin-right: 50px;
 }
-
-
 
 footer {
   border-top: 1px solid black;
