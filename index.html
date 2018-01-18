@@ -1,7 +1,12 @@
 <html>
   <head>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
     <meta charset="utf-8">
       <link rel="stylesheet" href="style.css" />
+      <script type="text/javascript" src="javascript/slider.js"></script>
     <title>
       MIMI BAKERY
     </title>
@@ -22,10 +27,16 @@
 </div> <!--menu-->
 </div> <!--conteneur---->
 <div class="produit">
-    <div class="slider">
-  <div> <img src="http://maisonbecam.com/687-thickbox_default/macaron-framboise-indiv.jpg" alt="1"></div>
-  <!--<div> <img src="http://1.bp.blogspot.com/-_9qbR_D26dw/UvkLDZqvk_I/AAAAAAAABAE/EBMlfP2RIRE/s1600/Macaron+Ispahan+%25284%2529.jpg" alt="2"></div>
-  <div> <img src="https://www.lestoquesdesboites.com/456/barrette-macaron-coco.jpg" alt="3"></div>-->
+
+    <div id="slider">
+      <a href="#" class="control_next">></a>
+      <a href="#" class="control_prev"><</a>
+      <ul>
+  <li> <img src="http://maisonbecam.com/687-thickbox_default/macaron-framboise-indiv.jpg" alt="1">slide</li>
+  <li> <img src="http://1.bp.blogspot.com/-_9qbR_D26dw/UvkLDZqvk_I/AAAAAAAABAE/EBMlfP2RIRE/s1600/Macaron+Ispahan+%25284%2529.jpg" alt="2">slide</li>
+  <li> <img src="https://www.lestoquesdesboites.com/456/barrette-macaron-coco.jpg" alt="3">slide</li>
+     </ul>
+
    </div>
     <div class="body">
       <h3 class="item-title">
@@ -34,12 +45,12 @@
       <p>2 $</p>
       <label for="quantite">Quantité:</label>
       <select id="quantite">
-        <option value="1">1</option> 
+        <option value="1">1</option>
         <option value="2" selected>2</option>
         <option value="3">3</option>
       </select>
       <br/>
-      
+
       <button type="button">Ajoutez au panier</button>
       <p class="item-description">
         Petit gâteau d'amande et de framboise avec de vrais morceaux de framboises fraiches! Miam!
@@ -48,16 +59,29 @@
 </div>
     <footer>
       <div class="lien colonne-footer">
-        liens
+        Nous <br>
+        FAQ<br>
+        A emporter<br>
+        Contactez Nous<br>
       </div>
       <div class="horaires colonne-footer">
-        horaires
+        horaires  d'ouvertures :<br>
+        Lun 9h-18h <br>
+        Mar 9h-18h <br>
+        Mer 9h-18h<br>
+        Jeu 9h-18h<br>
+        Ven 9h-18h<br>
       </div>
       <div class="colonne-footer">
-        adresse
+        Adresse: <br>
+        Blanchemaille <br>
+         by Euratechnology <br>
       </div>
       <div class="colonne-footer">
-        Infos
+        Retrait possible <br>
+        en magasin<br>
+        Livraison <br>
+        rapide<br>
       </div>
     </footer>
   </body>
